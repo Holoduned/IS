@@ -9,15 +9,6 @@ nltk.download('stopwords')
 morph = MorphAnalyzer()
 russian_stopwords = stopwords.words('russian')
 
-extra_stopwords = {
-    'это', 'весь', 'который', 'свой', 'наш', 'ваш', 'их', 'мой', 'твой', 'свой',
-    'какой', 'который', 'такой', 'такой', 'такой', 'какой-то', 'который-то',
-    'сей', 'оный', 'другой', 'иной', 'некий', 'никакой', 'ничей', 'чей-то',
-    'кто', 'что', 'как', 'где', 'когда', 'почему', 'зачем', 'сколько', 'кто-то',
-    'что-то', 'какой-то', 'где-то', 'когда-то', 'почему-то', 'зачем-то', 'сколько-то'
-}
-russian_stopwords = set(russian_stopwords).union(extra_stopwords)
-
 
 def preprocess_text(text):
     text = re.sub(r'[^а-яА-ЯёЁa-zA-Z\- ]', ' ', text)
