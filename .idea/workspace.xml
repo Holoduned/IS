@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a9f080f-9de8-40d4-ade5-84a50d83edbc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/boolean_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inverted-list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stopwords-ru.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/text_processor.py" beforeDir="false" afterPath="$PROJECT_DIR$/text_processor.py" afterDir="false" />
     </list>
@@ -99,7 +102,10 @@
       <workItem from="1743249532717" duration="1836000" />
       <workItem from="1743785312862" duration="10144000" />
       <workItem from="1743797018957" duration="1452000" />
-      <workItem from="1743827460339" duration="156000" />
+      <workItem from="1743827460339" duration="261000" />
+      <workItem from="1743832093518" duration="510000" />
+      <workItem from="1743960898406" duration="2922000" />
+      <workItem from="1744358537652" duration="12021000" />
     </task>
     <servers />
   </component>
